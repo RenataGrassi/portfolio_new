@@ -19,7 +19,7 @@
 		<body id="body">
 		  <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-3 pr-4">
 			<div class="logo">
-			  <img src="images/RG.png" alt="RenataGrassi", width="250">
+			  <img src="images/RG.png" alt="RenataGrassi", width="230">
 			</div>
 			<div class="flex-container">
 			  <div class="flex-item"><a href="about.html" style="text-decoration:none">About</a></div>
@@ -29,6 +29,8 @@
 			</div>
 		  </nav>
 				  
+
+	<div class='container-contact'>
 		<div class=container-ff>
 		 
 			<div class='flex-item-icon'>
@@ -49,7 +51,45 @@
 			  </a>
 			</div>
 		
-        </div>
+    </div>
 		
-		 </body>
+		<div class='form'>
+			<h3>Get in touch</h3>
+			<form id="contact-form" enctype="multipart/form-data" name="myForm" action="https://getform.io/f/58a045ad-c284-4e3d-9eae-db7f02eb528d" method="POST" role="form">
+
+				<div class="form-group">
+						<label class="form-label" id="nameLabel" for="name"></label>
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name" tabindex="1">
+				</div>
+
+				<div class="form-group">
+						<label class="form-label" id="emailLabel" for="email"></label>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Email" tabindex="2">
+				</div>
+
+				<div class="form-group">
+						<label class="form-label" id="subjectLabel" for="sublect"></label>
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+				</div>
+
+				<div class="form-group">
+						<label class="form-label" id="messageLabel" for="message"></label>
+						<textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Let´s grab a coffee and talk about your ideas..." tabindex="4"></textarea>
+				</div>
+
+				<div class="text-center margin-top-25">
+						<button type="submit" class="about-btn">Send</button>
+				</div>
+
+		</div> <!-- form-->
+	</div> <!-- contact form-->
+	
+		</body>
 	</div>
+
+	<div class="footer">
+		<hr>
+		Keep learning <img src="images/RG.png" alt="RenataGrassi", width="90">
+		
+	</div>
+</html>
