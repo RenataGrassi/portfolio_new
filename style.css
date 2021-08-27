@@ -22,6 +22,10 @@ h3 {
   text-align: justify;
 }
 
+a:hover {
+ color: #FF5757;
+}
+
 /* // NAVBAR //  */
 .logo {
   text-align: center;
@@ -40,6 +44,13 @@ h3 {
   padding-left: 100px;
   }
   
+ 
+  .navbar a {
+    color:#4a503d
+  }
+  .navbar a:hover {
+    color: #FF5757;
+  }
   
   
   /* INDEX */
@@ -179,6 +190,8 @@ display: none;
   margin-left: 0px;  
   margin-right: 15%; 
   text-align: justify;
+  
+  
 }
 
 @media (max-width: 800px) {
@@ -268,9 +281,8 @@ center {
   font-weight: bold; 
   font-family: 'Varela Round', sans-serif;
   font-size: 2.8rem;
-  color: #1E3163;
   padding-top: 50px;
-  	
+  color: #FF5757;	
 }
 
 /* ABOUT */
