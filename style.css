@@ -88,7 +88,7 @@ align-content: flex-end;
 
 @media (max-width: 800px){
   .port-content-provi{
-    margin-left: 2px;      
+    margin-left: 2px !important;      
     width: 178px;
     height: 732px;
     margin-right: -14%;
