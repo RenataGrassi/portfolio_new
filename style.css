@@ -88,9 +88,10 @@ align-content: flex-end;
 
 @media (max-width: 800px){
   .port-content-provi{
-    margin-left: 44px;      
-    width: 100%;
-    margin-right: 0;
+    margin-left: 2px;      
+    width: 178px;
+    height: 732px;
+    margin-right: -14%;
     font-size: small;
   }
 }
@@ -115,7 +116,7 @@ transition: all 0.4s ease;
 @media (max-width: 800px) {
   #foto {
     padding-top: 0;
-    padding-left: 20%;
+    padding-left: 7%;
     padding-bottom: 3%;
     align-items: center;
   }
@@ -124,14 +125,14 @@ transition: all 0.4s ease;
 
 @media (max-width: 800px) {
   #foto img{
-    max-width: 200px;
+    max-width: 180px;
   }
 }
 
 @media (max-width: 800px) {
   #foto_arraial img{
-    max-width: 200px;
-    padding-left: 6%;
+    max-width: 182px;
+    padding-left: 1%;
   }
 }
 
@@ -171,7 +172,7 @@ text-align: justify;
 
 @media (max-width: 800px) {
   .port-content-msg {
-    margin-left: 16%;
+    margin-left: 9%;
     margin-right: -18%;
     font-size: small;
   }
@@ -189,7 +190,7 @@ margin-top: 10%;
 
 @media (max-width: 800px) {
   #foto_arraial {
-    margin-left: 25%;
+    margin-left: 12%;
     margin-right: -27%;
     font-size: small;
   }
@@ -208,8 +209,8 @@ margin-top: 10%;
 
 @media (max-width: 800px) {
   .port-content-arraial {
-  margin-left: 15%;
-  margin-right: -23%;
+  margin-left: 5%;
+  margin-right: -17%;
   margin-top: 3%;
   text-align: justify;
   font-size: small;
@@ -363,6 +364,12 @@ border-bottom-right-radius: 0;
   padding-top: 2rem;  
 }
 
+@media (max-width: 800px) {
+  .anguilla  {
+    padding-top: 1rem; 
+  }
+}
+
 .anguilla img {
   width: 330
 }
@@ -372,6 +379,8 @@ border-bottom-right-radius: 0;
     max-width: 200px;
   }
 }
+
+
 
 center {
   font-weight: bold; 
